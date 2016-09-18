@@ -15,7 +15,7 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'main',
-            template: '<h1>app-rank-dashboard</h1>'
+            templateUrl: 'app/app/app.component.html'
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
