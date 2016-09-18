@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'main',
-  template: '<h1>app-rank-dashboard</h1>'
+  template: '<h1>app-rank-dashboard-pre</h1>'
 })
 
 export class AppComponent { }
