@@ -1,2 +1,10 @@
+typings
 app/*.js
 app/*.map
+app/**/*.js
+app/**/*.map
+node_modules
+npm_packages
+bower_components
+*.pem
+

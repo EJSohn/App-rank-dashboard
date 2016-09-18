@@ -4,7 +4,7 @@ app/*.map
 app/**/*.js
 app/**/*.map
 node_modules
-jspm_packages
+npm_packages
 bower_components
 *.pem
 
