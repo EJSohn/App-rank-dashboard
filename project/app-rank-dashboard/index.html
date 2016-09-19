@@ -17,13 +17,14 @@
     
     <!-- 2. Configure SystemJS -->
     <script src="systemjs.config.js"></script>
-
-    <!-- add personal libraries -->
-    <script src="semantic/dist/semantic.min.js"></script>
-
     <script>
       System.import('app').catch(function(err){ console.error(err); });
     </script>
+
+    <!-- add personal libraries -->
+    <!-- jquery js file have to be included even if you referenced jquery.d.ts file -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
   </head>
   <!-- 3. Display the application -->
   <body>
