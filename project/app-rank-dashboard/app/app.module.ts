@@ -6,6 +6,8 @@ import { AppComponent } from "./app/app.component";
 import { PieGraphComponent } from "./pieGraph/piegraph.component";
 import { BarGraphComponent } from "./barGraph/bargraph.component";
 import { DashboardComponent } from "./dashboard/dashboard.component";
+import { MrFlogComponent } from "./mrFlog/mr-flog.component";
+
 
 @NgModule({
   imports:      [ BrowserModule ],
@@ -13,7 +15,8 @@ import { DashboardComponent } from "./dashboard/dashboard.component";
         AppComponent,
         PieGraphComponent,
         BarGraphComponent,
-        DashboardComponent
+        DashboardComponent,
+        MrFlogComponent
     ],
   bootstrap:    [ AppComponent ]
 })
