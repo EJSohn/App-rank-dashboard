@@ -5,13 +5,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from "./app/app.component";
 import { PieGraphComponent } from "./pieGraph/piegraph.component";
 import { BarGraphComponent } from "./barGraph/bargraph.component";
+import { DashboardComponent } from "./dashboard/dashboard.component";
 
 @NgModule({
   imports:      [ BrowserModule ],
   declarations: [ 
         AppComponent,
         PieGraphComponent,
-        BarGraphComponent
+        BarGraphComponent,
+        DashboardComponent
     ],
   bootstrap:    [ AppComponent ]
 })
