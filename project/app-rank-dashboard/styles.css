@@ -12,3 +12,17 @@ h2, h3 {
 body {
   margin: 2em;
 }
+
+.footer {
+  position: absolute !important;
+  width: 100% !important;
+  bottom: 0px;
+}
+
+.ui.inverted.menu{
+  background: #009688 !important;
+}
+
+.ui.inverted.segment{
+  background: #009688 !important;  
+}
