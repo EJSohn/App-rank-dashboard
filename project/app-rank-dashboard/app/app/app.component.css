@@ -20,3 +20,9 @@ body {
     height: 80%;
 }
 
+#mr-frog {
+    position: absolute;
+    right: 150px;
+    bottom: 35px;
+    z-index: 1;
+}
