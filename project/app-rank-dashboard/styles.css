@@ -30,3 +30,9 @@ body {
 .ui.inverted.segment{
   background: #009688 !important;  
 }
+
+.graph-title {
+    text-align: center;
+    color: #333333;
+    font-weight: 500;
+}

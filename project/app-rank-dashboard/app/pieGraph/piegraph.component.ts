@@ -14,9 +14,11 @@ export class PieGraphComponent {
 
     ngOnInit(): void {
 
+        // chart.js 's options
         var canvas : any = document.getElementById("PieGraph");
         var ctx = canvas.getContext("2d");
 
+        // make chart
         var PieGraph = new Chart(ctx, {
             data: DATA,
             type: 'polarArea',
