@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 
 
-export class AppComponent { }
+export class AppComponent {
+
+  constructor() { }
+
+  jumpFlog(): void {
+    for(var i=0; i<2; i++){
+      $(".mascot-frog").effect('bounce',{times:2}, 500);
+    }
+  }
+ }
