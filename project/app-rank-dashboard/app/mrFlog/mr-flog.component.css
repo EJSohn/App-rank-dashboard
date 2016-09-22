@@ -1,0 +1,9 @@
+.mr-flog-container {
+    border: 2px solid #636262;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 80px;
+    width: 30%;
+    height: 210px;
+    right: 15%;
+}

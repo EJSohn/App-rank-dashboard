@@ -1,6 +1,9 @@
 #bar-container {
-    width: 65%;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    width: 702px;
     height: 50%;
-    float: left;
     margin: 20px 0 0 50px;
 }
+
