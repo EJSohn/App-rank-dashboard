@@ -36,3 +36,30 @@ body {
     color: #333333;
     font-weight: 500;
 }
+
+/*div{
+  border: 1px solid;
+}*/
+
+.clearfix{
+  position: relative;
+  overflow: auto;
+}
+
+/*float으로 영역을 잡으면 화면 크기에 따라서 흐른다. 
+즉, 안에 있는 영역이 감싸는 영역보다 커지면 밑으로 떨어지고, 
+작으면 옆으로 나열되는 형식.*/
+.pull-left{
+  float: left;
+}
+
+/*pc에서는 나열되어야하니까 각 영역을 50퍼로 잡고*/
+.reactive-wrapper{
+  width: 50%; /*전체 div에 border 줘서 약간 깨지는 바람에 그냥 49퍼로 정했지만, 진짜 코드에서는 50%로*/
+}
+
+@media screen and (max-width: 700px) {
+    .reactive-wrapper{
+    width: 100%; /*마찬가지로 border때문에 깨져서 99퍼로 줌. 진짜에서는 걍 100퍼하면 된다.*/
+  }
+}

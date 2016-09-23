@@ -1,7 +1,10 @@
 #dashboard-container {
-    position: absolute;
+    /*position: absolute;
     bottom: 80px;
-    width: 30%;
+    width: 30%;*/
+    margin-bottom: 50px;
+    max-width: 500px;
+    margin-top: 40px;
 }
 
 .built-app {

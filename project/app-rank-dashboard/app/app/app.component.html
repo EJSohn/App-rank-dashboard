@@ -24,11 +24,18 @@
     </div>
   </div>
 
-  <div class="ui main text containers">
-      <pie-graph></pie-graph>
-      <bar-graph></bar-graph>
-      <dashboard></dashboard>
-      <mr-flog></mr-flog>
+  <div class="ui main text containers clearfix">
+      <div class="full-container">
+        <div class="pull-left reactive-wrapper">
+                <pie-graph></pie-graph>
+                <dashboard></dashboard>
+        </div>
+        
+        <div class="pull-left reactive-wrapper">
+                <bar-graph></bar-graph>
+                <mr-flog></mr-flog>
+        </div>
+    </div>
  </div>
 
  <div class="main mascot-frog" (click)="jumpFlog()">
