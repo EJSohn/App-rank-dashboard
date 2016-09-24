@@ -8,6 +8,8 @@ import { BarGraphComponent } from "./barGraph/bargraph.component";
 import { DashboardComponent } from "./dashboard/dashboard.component";
 import { MrFlogComponent } from "./mrFlog/mr-flog.component";
 
+// import services
+import { DataService } from "./data.service";
 
 @NgModule({
   imports:      [ BrowserModule ],
@@ -17,6 +19,9 @@ import { MrFlogComponent } from "./mrFlog/mr-flog.component";
         BarGraphComponent,
         DashboardComponent,
         MrFlogComponent
+    ],
+  providers: [
+    DataService
     ],
   bootstrap:    [ AppComponent ]
 })
