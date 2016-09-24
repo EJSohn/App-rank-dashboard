@@ -8,6 +8,7 @@ body {
 
 .main.containers {
     margin-top: 5em;
+    margin-bottom: 5em;
 }
 
 .wireframe {
@@ -21,7 +22,7 @@ body {
 }
 
 .mascot-frog {
-    position: absolute;
+    position: fixed;
     right: 10%;
     bottom: 35px;
     z-index: 1;
