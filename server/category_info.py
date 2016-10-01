@@ -20,7 +20,7 @@ class CategoryHandler:
             self.soup = BeautifulSoup(urllib2.urlopen(url), "xml")
             self.entries = soup.find_all('entry')
 
-    def whole_category(language='label'):
+    def whole_category(self, language='label'):
         """
         Args: 
             language: can be 'label'(=korean category name) 
