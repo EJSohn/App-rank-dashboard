@@ -1,6 +1,7 @@
-from bs4 import BeautifulSoup
 from collections import Counter
 import lxml, urllib2
+
+from bs4 import BeautifulSoup
 
 
 class NationTypeError(Exception):
